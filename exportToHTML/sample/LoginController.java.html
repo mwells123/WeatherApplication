@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>LoginController.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+LoginController.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">sample</span><span class="s0">;</span>
+
+<span class="s0">import </span><span class="s1">javafx.event.ActionEvent</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">javafx.fxml.FXML</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">javafx.scene.control.Button</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">javafx.scene.control.TextField</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">javafx.scene.text.Text</span><span class="s0">;</span>
+
+<span class="s0">import </span><span class="s1">java.io.FileWriter</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">java.io.IOException</span><span class="s0">;</span>
+
+<span class="s0">public class </span><span class="s1">LoginController {</span>
+
+    <span class="s1">@FXML</span>
+    <span class="s0">private </span><span class="s1">Button Newark</span><span class="s0">;</span>
+
+    <span class="s1">@FXML</span>
+    <span class="s0">void </span><span class="s1">NewarkButtonPressed(ActionEvent event) </span><span class="s0">throws </span><span class="s1">IOException {</span>
+        <span class="s1">Main m = </span><span class="s0">new </span><span class="s1">Main()</span><span class="s0">;</span>
+        <span class="s1">m.changeScene(</span><span class="s2">&quot;Newark.fxml&quot;</span><span class="s1">)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+<span class="s1">}</span></pre>
+</body>
+</html>
